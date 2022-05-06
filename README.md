@@ -1,1 +1,1 @@
-# maguangguang.xyz
+# blogs for www.maguangguang.xyz
