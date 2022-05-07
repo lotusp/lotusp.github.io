@@ -10,18 +10,17 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+# theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "码猿外"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Guangguang Ma"
-description              : "本站是本人的Github Pages站点，内容与本人博客同步
-  更多内容请前往本人博客站点：[码猿外：麻广广的博客](https://www.maguangguang.xyz)"
+description              : ""
 url                      : "https://www.lotusp.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,14 +104,16 @@ analytics:
 author:
   name             : "Guangguang Ma"
   avatar           : "/assets/images/logo_256_256.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "功不求戾，但求有恒。"
+  bio              : "功不求戾，但求有恒。<br><br>
+  本站构建于Github Pages<br>
+  更多内容参见本人博客：[码猿外](https://www.maguangguang.xyz)"
   # location         : "China"
   # email            : "gordon.mgg@gmail.com"
   links:
     - label: "邮箱"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gordon.mgg@gmail.com"
-    - label: "个人网站"
+    - label: "个人博客"
       icon: "fas fa-fw fa-link"
       url: "https://www.maguangguang.xyz"
     - label: "Twitter"
@@ -287,20 +288,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
-
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
