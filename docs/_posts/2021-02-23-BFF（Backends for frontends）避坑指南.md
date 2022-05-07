@@ -1,6 +1,12 @@
 ---
-title:  "BFF闭坑指南"
-permalink: /backend-for-frontend
+layout:     single
+title:      "BFF闭坑指南"
+permalink:  /backend-for-frontend
+
+excerpt:    BFF在前后端分离的架构模式下隔离了前端和后端的关注点，特别是在多个前端或第三方的情况下，BFF都是非常好的选择。然而在实际实现过程中，仍然要时刻警惕，明确BFF设计的初衷，避免因引入BFF而带来了更多的问题。
+
+categories: 技术
+tags: 微服务
 ---
 
 原文参见本人博客：[BFF（Backends for frontends）避坑指南](https://www.maguangguang.xyz/backend-for-frontend)
